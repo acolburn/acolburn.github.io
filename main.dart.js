@@ -34137,7 +34137,7 @@ $S:130}
 F.C8.prototype={
 O:function(a,b){return new S.t6(new F.Bn(new D.EV(C.A0,new P.b3(t.V)),null),"Boggle",!1,null)}}
 F.Bn.prototype={
-O:function(a,b){var s,r,q,p,o,n,m,l,k=null,j=t.w,i=b.U(j).f.a.a<b.U(j).f.a.b-120?b.U(j).f.a.a:b.U(j).f.a.b-120,h=0.23*i
+O:function(a,b){var s,r,q,p,o,n,m,l,k=null,j=t.w,i=b.U(j).f.a.a<b.U(j).f.a.b-160?b.U(j).f.a.a:b.U(j).f.a.b-160,h=0.23*i
 j=L.ex("Boggle",k,k,k,k,k,k)
 s=L.ex("(opt.) Enter Board Number ",k,k,k,A.fO(k,k,k,k,k,k,k,k,k,k,k,22,k,k,k,k,!0,k,k,k,k,k,k,k),k,k)
 r=t.fQ
