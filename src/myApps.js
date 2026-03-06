@@ -52,7 +52,7 @@ export default [
     key: "8",
     name: "Notes",
     description:
-      "This app is more or less a clone of simple notetaking apps like Simplenote. I made it to help me keep track of my notes while learning Flutter. It's made with Flutter.",
+      "This app is more or less a clone of simple notetaking apps like Simplenote. I made it to help me keep track of my notes while learning Flutter. It's made with Flutter, with a Google Sheets backend.",
     url: "https://acolburn.github.io/notes-web/",
   },
   {

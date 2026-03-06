@@ -11,6 +11,7 @@
 }
 
 h1 {
+  font-size: 4rem;
   text-align: center;
   color: #3366ff;
 }
@@ -53,4 +54,8 @@ h2 {
   border-radius: 5%;
   padding: 0.125rem;
   box-shadow: rgba(0, 0, 0, 0.24) 6px 8px 8px;
+}
+
+.pink {
+  color: #ff80ff;
 }
