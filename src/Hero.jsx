@@ -8,7 +8,7 @@ export default function Hero() {
           portfolio of projects showing some of the thingsI've learned through
           the years.
         </p>
-        <img src="./assets/me.jpg" alt="Alan Colburn" className="hero-img" />
+        <img src="assets/me.jpg" alt="Alan Colburn" className="hero-img" />
       </div>
     </>
   );
