@@ -1,4 +1,4 @@
-import myLogo from "./assets/logo-removebg.png";
+import myLogo from "/assets/logo-removebg.png";
 
 export default function Header() {
   return (
