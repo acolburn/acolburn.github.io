@@ -1,8 +1,13 @@
 * {
-  margin: 0.2rem;
+  /* margin: 0.2rem; */
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  border: 1px solid #23252c;
 }
 
 .header-logo {
@@ -58,4 +63,38 @@ h2 {
 
 .pink {
   color: #ff80ff;
+}
+
+.hero-button {
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: #3366ff;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 6px 8px 8px;
+}
+
+/* The container for your AppList */
+.app-list-container {
+  overflow: hidden;
+  transition:
+    max-height 0.5s ease-in-out,
+    opacity 0.5s ease;
+  max-height: 0;
+  opacity: 0;
+}
+
+/* The state when the list is visible */
+.app-list-container.show {
+  max-height: 2000px; /* Set this higher than your list will ever be */
+  opacity: 1;
+}
+
+footer {
+  background-color: #23252c;
+  color: white;
+  height: 100px;
+  font-size: 0.8rem;
 }
