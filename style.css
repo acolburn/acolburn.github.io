@@ -48,7 +48,7 @@ h2 {
 .app-grid {
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr; */
-  grid-template-columns: repeat(auto-fit, minmax(200px, 20vw));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 20vw));
   gap: 1rem;
   padding: 1rem;
 }
@@ -59,6 +59,11 @@ h2 {
   border-radius: 5%;
   padding: 0.125rem;
   box-shadow: rgba(0, 0, 0, 0.24) 6px 8px 8px;
+}
+
+.app-entry > img {
+  width: 100%;
+  height: auto;
 }
 
 .pink {
