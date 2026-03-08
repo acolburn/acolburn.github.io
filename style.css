@@ -48,7 +48,7 @@ h2 {
 .app-grid {
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr; */
-  grid-template-columns: repeat(auto-fit, minmax(300px, 20vw));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
   padding: 1rem;
 }
@@ -57,7 +57,7 @@ h2 {
   aspect-ratio: 1/1;
   border: 1px solid #3366ff;
   border-radius: 5%;
-  padding: 0.125rem;
+  padding: 1rem;
   box-shadow: rgba(0, 0, 0, 0.24) 6px 8px 8px;
 }
 
@@ -93,7 +93,7 @@ h2 {
 
 /* The state when the list is visible */
 .app-list-container.show {
-  max-height: 2000px; /* Set this higher than your list will ever be */
+  max-height: 200000px; /* Set this higher than your list will ever be */
   opacity: 1;
 }
 
