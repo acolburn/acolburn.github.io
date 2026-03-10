@@ -29,7 +29,7 @@ export default [
     description:
       "This app presents a Boggle game board that lets multiple people play together on the web. It creates new boards, keeps track of time, and ends the game when time is up. Players keep track of their words and scores. It's made with Flutter.",
     url: "https://acolburn.github.io/boggle",
-    screenshot: "/assets/boggle2_screenshot.png",
+    screenshot: "/assets/boggle1_screenshot.png",
   },
   {
     key: "5",
