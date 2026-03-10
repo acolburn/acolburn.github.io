@@ -10,14 +10,16 @@ function App() {
   const handleToggle = () => setShowApps(!showApps);
 
   return (
-    <>
+    <div className="app-wrapper">
       <Header />
-      <Hero onToggleApps={handleToggle} isShowing={showApps} />
-      <div className={`app-list-container ${showApps ? "show" : ""}`}>
-        <AppList data={myApps} />
+      <div className="content">
+      	<Hero onToggleApps={handleToggle} isShowing={showApps} />
+      	<div className={`app-list-container ${showApps ? "show" : ""}`}>
+        	<AppList data={myApps} />
+      	</div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
