@@ -6,10 +6,10 @@ export default function Hero({ onToggleApps, isShowing }) {
       <div className="hero">
         <div className="hero-text">
           <p>
-            Since retiring from the professoriate, I've unleashed the nerd and
-            begun learning front end development skills. This website is a
-            portfolio of projects showing some of the things I've learned
-            through the years.
+            Welcome to my digital workshop! Since retiring from the
+            professoriate, I've <span className="pink">unleashed the nerd</span>{" "}
+            and started learning front end development skills. This site
+            documents my journey--learning, experimenting, and discovering.
           </p>
           {/* 5. Add the button and call the prop function when clicked */}
           <button onClick={onToggleApps} className="hero-button">
