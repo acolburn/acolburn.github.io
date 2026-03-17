@@ -11,7 +11,7 @@ export default [
     key: "10",
     name: "Chef Claude",
     description:
-      "Give Chef Claude a list of ingredients you have on hand, and he'll suggest a recipe. Tt's a React app that uses AI.",
+      "Give Chef Claude a list of ingredients you have on hand, and he'll suggest a recipe. It's a React app that uses AI.",
     url: "https://alschefclaude.netlify.app",
     screenshot: "/assets/chef_claude_screenshot.png",
   },

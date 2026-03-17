@@ -7,7 +7,8 @@ export default function Hero({ onToggleApps, isShowing }) {
         <div className="hero-text">
           <p>
             Welcome to my digital workshop! Since retiring from the
-            professoriate, I've <span className="pink">unleashed the nerd</span>{" "}
+            professoriate, I've{" "}
+            <span className="pink">unleashed the nerd </span>
             and started learning front end development skills. This site
             documents my journey--learning, experimenting, and discovering.
           </p>

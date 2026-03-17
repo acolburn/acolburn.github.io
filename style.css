@@ -46,11 +46,17 @@ h2 {
 }
 
 .hero-text {
-
   padding: 1rem;
   flex: 2;
   font-size: 1.5rem;
   line-height: 1.5em;
+}
+
+@media (min-width: 1400px) {
+  .hero-text {
+    font-size: 2rem;
+    padding: 1rem 20rem;
+  }
 }
 
 .app-grid {
