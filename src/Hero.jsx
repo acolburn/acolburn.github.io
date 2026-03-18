@@ -5,9 +5,11 @@ export default function Hero({ onToggleApps, isShowing }) {
     <>
       <div className="hero">
         <div className="hero-text">
+          <h1>
+          Good day, <span className="pink">again!</span>
+        </h1>
           <p>
-            Welcome to my digital workshop! Since retiring from the
-            professoriate, I've{" "}
+            I've{" "}
             <span className="pink">unleashed the nerd </span>
             and started learning front end development skills. This site
             documents my journey--learning, experimenting, and discovering.

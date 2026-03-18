@@ -12,6 +12,7 @@
 }
 
 h1 {
+  margin-bottom:2rem;
   font-size: 4rem;
   text-align: center;
   color: #3366ff;
@@ -36,6 +37,7 @@ h2 {
 .hero {
   display: flex;
   align-items: center;
+  margin-top:1rem;
 }
 
 .hero-img {
@@ -46,16 +48,28 @@ h2 {
 }
 
 .hero-text {
+  display:flex;
+  flex-direction: column;
   padding: 1rem;
   flex: 2;
   font-size: 1.5rem;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 @media (min-width: 1400px) {
   .hero-text {
     font-size: 2rem;
     padding: 1rem 20rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-img {
+    max-width: 100%;
+    margin-bottom: 1rem;
   }
 }
 
