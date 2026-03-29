@@ -10,7 +10,7 @@ export default function AppList(props) {
         <a
           href={item.url}
           target="_blank"
-          className="text-blue-600 hover:underline text-sm mb-1"
+          className="text-blue-600 hover:underline text-md mb-2"
         >
           {item.name} URL
         </a>
