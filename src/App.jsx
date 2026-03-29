@@ -1,22 +1,27 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Header from "./Header.jsx";
 import Hero from "./Hero.jsx";
+import Footer from "./Footer.jsx";
 import AppList from "./AppList.jsx";
 import myApps from "./myApps.js";
-import Footer from "./Footer.jsx";
+
 function App() {
   const [showApps, setShowApps] = useState(false);
 
   const handleToggle = () => setShowApps(!showApps);
 
   return (
-    <div className="app-wrapper">
+    <div className="min-h-screen flex flex-col bg-slate-900 text-white">
       <Header />
-      <div className="content">
-      	<Hero onToggleApps={handleToggle} isShowing={showApps} />
-      	<div className={`app-list-container ${showApps ? "show" : ""}`}>
-        	<AppList data={myApps} />
-      	</div>
+      <div className="flex-1 overflow-y-auto">
+        <Hero onToggleApps={handleToggle} isShowing={showApps} />
+        <div
+          className={` transition duration-500 ease-in-out ${
+            showApps ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+          }`}
+        >
+          <AppList data={myApps} />
+        </div>
       </div>
       <Footer />
     </div>

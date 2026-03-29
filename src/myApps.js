@@ -5,7 +5,7 @@ export default [
     description:
       "Let Somm Claude find a great wine pairing for your next meal. Tt's a React app that uses AI.",
     url: "https://sommclaude.netlify.app",
-    screenshot: "/assets/somm_claude_screenshot.png",
+    screenshot: "/somm_claude_screenshot.png",
   },
   {
     key: "10",
@@ -13,7 +13,7 @@ export default [
     description:
       "Give Chef Claude a list of ingredients you have on hand, and he'll suggest a recipe. It's a React app that uses AI.",
     url: "https://alschefclaude.netlify.app",
-    screenshot: "/assets/chef_claude_screenshot.png",
+    screenshot: "/chef_claude_screenshot.png",
   },
   {
     key: "9",
@@ -21,7 +21,7 @@ export default [
     description:
       "An online two-player version of the classic game. It's made with HTML, CSS, and JavaScript, with a Firebase realtime database backend.",
     url: "https://acolburn.github.io/sequence-js",
-    screenshot: "/assets/sequence_screenshot.png",
+    screenshot: "/sequence_screenshot.png",
   },
   {
     key: "8",
@@ -29,7 +29,7 @@ export default [
     description:
       "I use this app to keep track of my reading. It's made with HTML, CSS, and JavaScript, with a Firebase realtime database backend. Book information is gathered from the Google Books API.",
     url: "https://acolburn.github.io/reading-log",
-    screenshot: "/assets/books_screenshot.png",
+    screenshot: "/books_screenshot.png",
   },
   {
     key: "7",
@@ -37,7 +37,7 @@ export default [
     description:
       "This app lets users calculate how fast they're reading (paper books). It's made with HTML, CSS, and JavaScript.",
     url: "https://acolburn.github.io/reading-speed",
-    screenshot: "/assets/reading_speed_screenshot.png",
+    screenshot: "/reading_speed_screenshot.png",
   },
   {
     key: "6",
@@ -45,7 +45,7 @@ export default [
     description:
       "This app presents a Boggle game board that lets multiple people play together on the web. It creates new boards, keeps track of time, and ends the game when time is up. Players keep track of their words and scores. It's made with Flutter.",
     url: "https://acolburn.github.io/boggle",
-    screenshot: "/assets/boggle1_screenshot.png",
+    screenshot: "/boggle1_screenshot.png",
   },
   {
     key: "5",
@@ -53,7 +53,7 @@ export default [
     description:
       "This version of Boggle allows multiple people to play the same board, at different times. Unlike the previous version, players enter their words online and the game takes care of scoring. It's made with Anvil Python.",
     url: "https://classic-distorted-village.anvil.app",
-    screenshot: "/assets/boggle2_screenshot.png",
+    screenshot: "/boggle2_screenshot.png",
   },
   {
     key: "4",
@@ -61,7 +61,7 @@ export default [
     description:
       "This app presents a Wordle game where every word is the name of a character in a TV show Laura and I have watched. It's made with Flutter.",
     url: "https://acolburn.github.io/wordle",
-    screenshot: "/assets/tv_wordle_screenshot.png",
+    screenshot: "/tv_wordle_screenshot.png",
   },
   {
     key: "3",
@@ -69,7 +69,7 @@ export default [
     description:
       "This app helps users solve the NY Times Spelling Bee game. It's made with Anvil Python.",
     url: "https://tinyurl.com/AlsBeeSolver",
-    screenshot: "/assets/bee_solver_screenshot.png",
+    screenshot: "/bee_solver_screenshot.png",
   },
   {
     key: "2",
@@ -77,7 +77,7 @@ export default [
     description:
       "This app is more or less a clone of simple notetaking apps like Simplenote. I made it to help me keep track of my notes while learning Flutter. It's made with Flutter, with a Google Sheets backend.",
     url: "https://acolburn.github.io/notes-web/",
-    screenshot: "/assets/notes_app_screenshot.png",
+    screenshot: "/notes_app_screenshot.png",
   },
   {
     key: "1",
@@ -85,6 +85,6 @@ export default [
     description:
       "This app was one of the independent exercises in the Scrimba Frontend Developer path. It's made with HTML, CSS, and JavaScript, accessing a public API.",
     url: "https://acolburn.github.io/movie-watchlist/",
-    screenshot: "/assets/movie_watchlist_screenshot.png",
+    screenshot: "/movie_watchlist_screenshot.png",
   },
 ];
