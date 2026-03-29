@@ -2,12 +2,7 @@ export default function Hero({ onToggleApps, isShowing }) {
   return (
     <section className="max-w-6xl mx-auto grid md:grid-cols-3 items-center gap-4 p-4">
       <div className="md:col-span-1 md:order-2">
-        <img
-          src="/public/me.jpg"
-          width="800"
-          height="1068"
-          className="rounded-2xl "
-        />
+        <img src="/me.jpg" width="800" height="1068" className="rounded-2xl " />
       </div>
 
       <div className="space-y-5 md:col-span-2 md:order-1">
