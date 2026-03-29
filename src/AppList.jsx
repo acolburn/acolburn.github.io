@@ -13,12 +13,12 @@ export default function AppList(props) {
           className="text-blue-600 hover:underline text-md mb-2"
         >
           {item.name} URL
+          <img
+            src={item.screenshot}
+            alt={item.name}
+            className="w-full object-fit rounded mb-2"
+          />
         </a>
-        <img
-          src={item.screenshot}
-          alt={item.name}
-          className="w-full object-fit rounded mb-2"
-        />
       </div>
     );
   });
