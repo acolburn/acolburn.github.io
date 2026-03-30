@@ -15,13 +15,7 @@ function App() {
       <Header />
       <div className="flex-1 overflow-y-auto">
         <Hero onToggleApps={handleToggle} isShowing={showApps} />
-        <div
-          className={` transition duration-500 ease-in-out ${
-            showApps ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
-          }`}
-        >
-          <AppList data={myApps} />
-        </div>
+        {showApps && <AppList data={myApps} />}
       </div>
       <Footer />
     </div>
