@@ -16,7 +16,7 @@ export default function Hero({ onToggleApps, isShowing }) {
           my journey--learning, experimenting, and discovering.
         </p>
         <button
-          className="bg-blue-700 text-white hover:bg-blue-600 px-12 py-3 rounded-full mt-5"
+          className="bg-slate-900 border-2 border-blue-700 text-white hover:bg-slate-800 px-12 py-3 rounded-2xl mt-5"
           onClick={onToggleApps}
         >
           {isShowing ? "No! Hide The Projects Now!" : "Wanna See My Projects?"}
