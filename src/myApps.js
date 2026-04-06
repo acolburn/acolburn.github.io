@@ -1,5 +1,14 @@
 export default [
   {
+    key: "12",
+    name: "Schitt's Creek Hangman",
+    description:
+      "Hangman--for Schitt's Creek fans. It's made with React and Tailwind CSS.",
+    url: "https://alancolburn.com/hangman",
+    screenshot: "/hangman_screenshot.png",
+  },
+
+  {
     key: "11",
     name: "Somm Claude",
     description:
