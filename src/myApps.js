@@ -12,7 +12,7 @@ export default [
     key: "11",
     name: "Somm Claude",
     description:
-      "Let Somm Claude find a great wine pairing for your next meal. Tt's a React app that uses AI.",
+      "Let Somm Claude find a great wine pairing for your next meal. It's a React app that uses AI.",
     url: "https://sommclaude.netlify.app",
     screenshot: "/somm_claude_screenshot.png",
   },
