@@ -1,8 +1,15 @@
+import ContactForm from "./ContactForm.jsx";
+
 export default function Hero({ onToggleApps, isShowing }) {
   return (
     <section className="max-w-6xl mx-auto grid md:grid-cols-3 items-center gap-4 p-4">
-      <div className="md:col-span-1 md:order-2">
-        <img src="/me.jpg" width="800" height="1068" className="rounded-2xl " />
+      <div className="md:col-span-1 md:order-2 self-start">
+        <img
+          src="/me.jpg"
+          width="800"
+          height="1068"
+          className="rounded-2xl max-w-full h-auto"
+        />
       </div>
 
       <div className="space-y-5 md:col-span-2 md:order-1">
@@ -15,6 +22,7 @@ export default function Hero({ onToggleApps, isShowing }) {
           and started learning front end development skills. This site documents
           my journey--learning, experimenting, and discovering.
         </p>
+        <ContactForm />
         <button
           className="bg-slate-900 border-2 border-blue-700 text-white hover:bg-slate-800 px-12 py-3 rounded-2xl mt-5"
           onClick={onToggleApps}
