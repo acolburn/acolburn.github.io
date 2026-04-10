@@ -11,9 +11,9 @@ export default function ContactForm() {
   }
   return (
     <div className="space-y-2">
-      <h2 className="text-3xl font-bold">Contact Me</h2>
+      <h2 className="text-2xl font-bold">Contact Me</h2>
       <p className="text-lg">
-        If you have any questions, comments, or just want to say hi, drop me a
+        If you have questions, comments, or just want to say hi, drop me a
         message!
       </p>
       <button
