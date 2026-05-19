@@ -1,5 +1,14 @@
 export default [
   {
+    key: "13",
+    name: "Let's Play Farkle",
+    description:
+      "It's a multiplayer version of the classic dice game, made with React, Tailwind CSS, and Firebase.",
+    url: "https://alancolburn.com/farkle-js",
+    screenshot: "/farkle_screenshot.png",
+  },
+
+  {
     key: "12",
     name: "Schitt's Creek Hangman",
     description:
