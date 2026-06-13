@@ -1,5 +1,13 @@
 export default [
   {
+    key: "14",
+    name: "Al's Weather App",
+    description:
+      "It's sort of a rule that you gotta make a weather app at some point. I made mine experimenting with 'vibe coding'.",
+    url: "https://alancolburn.com/weather",
+    screenshot: "/weather_screenshot.png",
+  },
+  {
     key: "13",
     name: "Let's Play Farkle",
     description:
