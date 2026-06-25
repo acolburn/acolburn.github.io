@@ -1,5 +1,21 @@
 export default [
   {
+    key: "16",
+    name: "Toothbrush Timer",
+    description:
+      "A simple app to time your toothbrushing sessions. Made with HTML, CSS, and vanilla JavaScript.",
+    url: "https://alancolburn.com/countdown-timer",
+    screenshot: "/countdown_timer_screenshot.png",
+  },
+  {
+    key: "15",
+    name: "Habit Tracker",
+    description:
+      "Track daily habits, keep your streaks alive, recognize extra effort days. Made with React and Tailwind CSS.",
+    url: "https://alancolburn.com/habit-tracker",
+    screenshot: "/habit_tracker_screenshot.png",
+  },
+  {
     key: "14",
     name: "Al's Weather App",
     description:
