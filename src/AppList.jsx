@@ -2,30 +2,43 @@ export default function AppList(props) {
   const appEntry = props.data.map((item) => {
     return (
       <div
-        className="border border-blue-500 rounded-md p-4 flex-col  bg-slate-800 shadow-blue-800/90 shadow-lg"
+        className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-700 bg-slate-800/90 shadow-lg shadow-slate-950/40 transition duration-200 hover:-translate-y-1 hover:border-blue-500 hover:shadow-blue-900/40"
         key={item.key}
       >
-        <h3 className="font-bold text-lg mb-2">{item.name}</h3>
-        <p className="text-sm mb-3">{item.description}</p>
         <a
           href={item.url}
           target="_blank"
-          className="text-blue-600 hover:underline text-md mb-2"
+          rel="noreferrer"
+          className="overflow-hidden bg-slate-900 p-2"
         >
-          {item.name} URL
           <img
             src={item.screenshot}
             alt={item.name}
-            className="w-full object-fit rounded mb-2"
+            className="h-52 w-full rounded-lg object-contain transition duration-300 group-hover:scale-[1.01]"
           />
         </a>
+
+        <div className="flex flex-1 flex-col p-4">
+          <h3 className="mb-2 text-lg font-bold text-slate-100">{item.name}</h3>
+          <p className="mb-4 flex-1 text-sm leading-relaxed text-slate-300">
+            {item.description}
+          </p>
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noreferrer"
+            className="btn-primary w-full text-sm"
+          >
+            View Live Project
+          </a>
+        </div>
       </div>
     );
   });
 
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 p-4 ">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 auto-rows-fr gap-5 px-4 pb-10 sm:grid-cols-2 md:px-6 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
         {appEntry}
       </div>
     </>

@@ -7,31 +7,32 @@ export default function ContactForm() {
   const [showForm, setShowForm] = React.useState(false);
   const [state, handleSubmit] = useForm("mnjoknby");
   if (state.succeeded) {
-    return <p className="text-lg">Thank you for your message!</p>;
+    return (
+      <p className="rounded-xl border border-blue-700/60 bg-slate-800/80 p-4 text-lg text-slate-100">
+        Thank you for your message!
+      </p>
+    );
   }
   return (
-    <div className="space-y-2">
-      <h2 className="text-2xl font-bold">Contact Me</h2>
-      <p className="text-lg">
+    <div className="max-w-2xl space-y-3">
+      <h2 className="text-2xl font-bold text-slate-100">Contact Me</h2>
+      <p className="text-lg leading-relaxed text-slate-300">
         If you have questions, comments, or just want to say hi, drop me a
         message!
       </p>
-      <button
-        onClick={() => setShowForm(!showForm)}
-        className="bg-blue-700 hover:bg-blue-600 active:bg-blue-800 text-white font-semibold py-2 px-6 rounded-md transition-colors duration-200"
-      >
+      <button onClick={() => setShowForm(!showForm)} className="btn-primary">
         {showForm ? "Close Contact Form" : "Open Contact Form"}
       </button>
 
       {showForm && (
         <form
           onSubmit={handleSubmit}
-          className="bg-slate-800 border border-blue-700 rounded-lg p-4 max-w-md"
+          className="mt-2 max-w-lg rounded-2xl border border-slate-700 bg-slate-800/90 p-5 shadow-lg shadow-slate-950/40"
         >
           <div className="mb-4">
             <label
               htmlFor="email"
-              className="block text-white font-medium mb-2"
+              className="mb-2 block font-medium text-slate-100"
             >
               Email Address
             </label>
@@ -39,7 +40,7 @@ export default function ContactForm() {
               id="email"
               type="email"
               name="email"
-              className="w-full bg-slate-700 border border-blue-600 rounded-md py-2 px-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full rounded-xl border border-slate-600 bg-slate-700 px-3 py-2 text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/60"
             />
             <ValidationError
               prefix="Email"
@@ -51,14 +52,14 @@ export default function ContactForm() {
           <div className="mb-6">
             <label
               htmlFor="message"
-              className="block text-white font-medium mb-2"
+              className="mb-2 block font-medium text-slate-100"
             >
               Message
             </label>
             <textarea
               id="message"
               name="message"
-              className="w-full bg-slate-700 border border-blue-600 rounded-md py-2 px-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+              className="w-full resize-none rounded-xl border border-slate-600 bg-slate-700 px-3 py-2 text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/60"
               rows="5"
             />
             <ValidationError
@@ -71,7 +72,7 @@ export default function ContactForm() {
           <button
             type="submit"
             disabled={state.submitting}
-            className="w-full bg-blue-700 hover:bg-blue-600 active:bg-blue-800 disabled:bg-gray-500 disabled:cursor-not-allowed text-white font-semibold py-2 px-4 rounded-md transition-colors duration-200"
+            className="btn-primary w-full disabled:cursor-not-allowed disabled:bg-slate-500"
           >
             {state.submitting ? "Submitting..." : "Submit"}
           </button>
