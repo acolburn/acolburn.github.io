@@ -1,14 +1,7 @@
 export default [
+
   {
     key: "16",
-    name: "Toothbrush Timer",
-    description:
-      "A simple app to time your toothbrushing sessions. Made with HTML, CSS, and vanilla JavaScript.",
-    url: "https://alancolburn.com/countdown-timer",
-    screenshot: "/countdown_timer_screenshot.png",
-  },
-  {
-    key: "15",
     name: "Habit Tracker",
     description:
       "Track daily habits, keep your streaks alive, recognize extra effort days. Made with React and Tailwind CSS.",
@@ -16,7 +9,7 @@ export default [
     screenshot: "/habit_tracker_screenshot.png",
   },
   {
-    key: "14",
+    key: "15",
     name: "Al's Weather App",
     description:
       "It's sort of a rule that you gotta make a weather app at some point. I made mine experimenting with 'vibe coding'.",
@@ -24,7 +17,7 @@ export default [
     screenshot: "/weather_screenshot.png",
   },
   {
-    key: "13",
+    key: "14",
     name: "Let's Play Farkle",
     description:
       "It's a multiplayer version of the classic dice game, made with React, Tailwind CSS, and Firebase.",
@@ -33,7 +26,7 @@ export default [
   },
 
   {
-    key: "12",
+    key: "13",
     name: "Schitt's Creek Hangman",
     description:
       "Hangman--for Schitt's Creek fans. It's made with React and Tailwind CSS.",
@@ -42,7 +35,7 @@ export default [
   },
 
   {
-    key: "11",
+    key: "12",
     name: "Somm Claude",
     description:
       "Let Somm Claude find a great wine pairing for your next meal. It's a React app that uses AI.",
@@ -50,7 +43,7 @@ export default [
     screenshot: "/somm_claude_screenshot.png",
   },
   {
-    key: "10",
+    key: "11",
     name: "Chef Claude",
     description:
       "Give Chef Claude a list of ingredients you have on hand, and he'll suggest a recipe. It's a React app that uses AI.",
@@ -58,7 +51,7 @@ export default [
     screenshot: "/chef_claude_screenshot.png",
   },
   {
-    key: "9",
+    key: "10",
     name: "Sequence",
     description:
       "An online two-player version of the classic game. It's made with HTML, CSS, and JavaScript, with a Firebase realtime database backend.",
@@ -66,7 +59,7 @@ export default [
     screenshot: "/sequence_screenshot.png",
   },
   {
-    key: "8",
+    key: "9",
     name: "Reading Log",
     description:
       "I use this app to keep track of my reading. It's made with HTML, CSS, and JavaScript, with a Firebase realtime database backend. Book information is gathered from the Google Books API.",
@@ -74,7 +67,7 @@ export default [
     screenshot: "/books_screenshot.png",
   },
   {
-    key: "7",
+    key: "8",
     name: "Reading Speed",
     description:
       "This app lets users calculate how fast they're reading (paper books). It's made with HTML, CSS, and JavaScript.",
@@ -82,7 +75,7 @@ export default [
     screenshot: "/reading_speed_screenshot.png",
   },
   {
-    key: "6",
+    key: "7",
     name: "Boggle",
     description:
       "This app presents a Boggle game board that lets multiple people play together on the web. It creates new boards, keeps track of time, and ends the game when time is up. Players keep track of their words and scores. It's made with Flutter.",
@@ -90,7 +83,7 @@ export default [
     screenshot: "/boggle1_screenshot.png",
   },
   {
-    key: "5",
+    key: "6",
     name: "Another Boggle Game",
     description:
       "This version of Boggle allows multiple people to play the same board, at different times. Unlike the previous version, players enter their words online and the game takes care of scoring. It's made with Anvil Python.",
@@ -98,7 +91,7 @@ export default [
     screenshot: "/boggle2_screenshot.png",
   },
   {
-    key: "4",
+    key: "5",
     name: "tv Wordle",
     description:
       "This app presents a Wordle game where every word is the name of a character in a TV show Laura and I have watched. It's made with Flutter.",
@@ -106,7 +99,7 @@ export default [
     screenshot: "/tv_wordle_screenshot.png",
   },
   {
-    key: "3",
+    key: "4",
     name: "Bee Solver",
     description:
       "This app helps users solve the NY Times Spelling Bee game. It's made with Anvil Python.",
@@ -114,12 +107,20 @@ export default [
     screenshot: "/bee_solver_screenshot.png",
   },
   {
-    key: "2",
+    key: "3",
     name: "Notes",
     description:
       "This app is more or less a clone of simple notetaking apps like Simplenote. I made it to help me keep track of my notes while learning Flutter. It's made with Flutter, with a Google Sheets backend.",
     url: "https://acolburn.github.io/notes-web/",
     screenshot: "/notes_app_screenshot.png",
+  },
+    {
+    key: "2",
+    name: "Toothbrush Timer",
+    description:
+      "A simple app to time your toothbrushing sessions. Made with HTML, CSS, and vanilla JavaScript.",
+    url: "https://alancolburn.com/countdown-timer",
+    screenshot: "/countdown_timer_screenshot.png",
   },
   {
     key: "1",
