@@ -1,5 +1,13 @@
 export default [
   {
+    key: "18",
+    name: "Good News",
+    description:
+      "We could all use some good news. This app presents good news stories from various web sites. It's made with React, Tailwind, and various API's.",
+    url: "https://goodnews.netlify.app",
+    screenshot: "/goodnews-screenshot.png",
+  },
+  {
     key: "17",
     name: "Sequence",
     description:
