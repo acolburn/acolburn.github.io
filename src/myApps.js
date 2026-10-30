@@ -1,5 +1,13 @@
 export default [
   {
+    key: "19",
+    name: "Gin Rummy",
+    description:
+      "An online version of the classic card game for two. It's made with Svelte and Firebase.",
+    url: "https://alancolburn.com/gin-rummy",
+    screenshot: "/gin-rummy-screenshot.png",
+  },
+  {
     key: "18",
     name: "Good News",
     description:
