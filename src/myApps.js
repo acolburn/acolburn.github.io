@@ -4,7 +4,7 @@ export default [
     name: "Mastermind",
     description:
       "Classic Mastermind game, with an option for multiple people to guess the same secret code. It's made with Vue.",
-    url: "https://alancolburn.com/gin-rummy",
+    url: "https://alancolburn.com/mastermind",
     screenshot: "/mastermind-screenshot.png",
   },
   {
