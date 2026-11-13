@@ -5,7 +5,7 @@ export default [
     description:
       "Classic Mastermind game, with an option for multiple people to guess the same secret code. It's made with Vue.",
     url: "https://alancolburn.com/gin-rummy",
-    screenshot: "/gin-rummy-screenshot.png",
+    screenshot: "/mastermind-screenshot.png",
   },
   {
     key: "19",
