@@ -3,7 +3,7 @@ export default [
     key: "21",
     name: "Who Played Who",
     description:
-      'See how well you know cast and characters from your favorite "Must See TV" shows. It\'s made with Vue.',
+      'See how well you know cast and characters from your favorite "Must See TV" shows of the past. It\'s made with Vue.',
     url: "https://who-played-who.netlify.app",
     screenshot: "/who-played-who-screenshot.png",
   },
