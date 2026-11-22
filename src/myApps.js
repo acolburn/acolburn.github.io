@@ -154,21 +154,5 @@ export default [
       "This app is more or less a clone of simple notetaking apps like Simplenote. I made it to help me keep track of my notes while learning Flutter. It's made with Flutter, with a Google Sheets backend.",
     url: "https://acolburn.github.io/notes-web/",
     screenshot: "/notes_app_screenshot.png",
-  },
-  {
-    key: "2",
-    name: "Toothbrush Timer",
-    description:
-      "A simple app to time your toothbrushing sessions. Made with HTML, CSS, and vanilla JavaScript.",
-    url: "https://alancolburn.com/countdown-timer",
-    screenshot: "/countdown_timer_screenshot.png",
-  },
-  {
-    key: "1",
-    name: "Movie Watchlist",
-    description:
-      "This app was one of the independent exercises in the Scrimba Frontend Developer path. It's made with HTML, CSS, and JavaScript, accessing a public API.",
-    url: "https://acolburn.github.io/movie-watchlist/",
-    screenshot: "/movie_watchlist_screenshot.png",
-  },
+  }
 ];
